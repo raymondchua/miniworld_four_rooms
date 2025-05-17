@@ -5,7 +5,8 @@ from ..entity import Box
 from ..maths import gen_rot_matrix
 from gym import spaces
 
-from gym_miniworld.miniworld import *
+# from gym_miniworld.miniworld import *
+from ..miniworld import *
 
 
 class YMaze(MiniWorldEnv):

@@ -4,7 +4,8 @@ from gym import spaces
 from ..miniworld import MiniWorldEnv, Room
 from ..entity import Box
 
-from gym_miniworld.miniworld import *
+# from gym_miniworld.miniworld import *
+from ..miniworld import *
 
 
 class FourRoomsNoBottomStartRoomTopLeft(MiniWorldEnv):

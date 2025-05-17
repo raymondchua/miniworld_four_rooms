@@ -4,7 +4,8 @@ from ..miniworld import MiniWorldEnv, Room
 from ..entity import Box
 from gym import spaces
 
-from gym_miniworld.miniworld import *
+# from gym_miniworld.miniworld import *
+from ..miniworld import *
 
 
 class TMaze(MiniWorldEnv):
