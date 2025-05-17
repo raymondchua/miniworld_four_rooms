@@ -20,3 +20,7 @@ dependencies = [
 [project.urls]
 homepage = "https://github.com/raymondchua/miniworld_four_rooms"
 repository = "https://github.com/raymondchua/miniworld_four_rooms"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["gym_miniworld*"]
