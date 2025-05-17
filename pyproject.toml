@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "miniworld"
+version = "0.1.0"
+description = "Various environments created based on the MiniWorld Environment."
+readme = "README.md"
+requires-python = ">=3.8"
+license = {text = "MIT"}
+authors = [{name = "Raymond Chua", email = "ray.r.chua@gmail.com"}]
+
+dependencies = [
+    "numpy",
+    "pyglet",
+    "gym",
+]
+
+[project.urls]
+homepage = "https://github.com/raymondchua/miniworld_four_rooms"
+repository = "https://github.com/raymondchua/miniworld_four_rooms"
