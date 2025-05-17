@@ -23,4 +23,4 @@ repository = "https://github.com/raymondchua/miniworld_four_rooms"
 
 [tool.setuptools.packages.find]
 where = ["."]
-include = ["gym_miniworld*"]
+include = ["gym_miniworld", "gym_miniworld.*"]
