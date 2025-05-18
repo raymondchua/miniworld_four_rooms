@@ -36,7 +36,6 @@ from .fourroomsnoleftstartroombottomleft import *
 env_ids = []
 
 def register_envs():
-    print("[DEBUG] Registering environments")
 
     module_name = __name__
     global_vars = globals()
@@ -64,8 +63,5 @@ def register_envs():
         )
 
         env_ids.append(gym_id)
-
-        # print('Registered env:', gym_id)
-        print("[DEBUG] Registered envs:", env_ids)
 
 register_envs()
