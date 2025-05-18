@@ -1,1 +1,2 @@
 recursive-include gym_miniworld/envs *.py
+recursive-include gym_miniworld/textures *.png *.jpg
