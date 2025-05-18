@@ -13,7 +13,7 @@ authors = [{name = "Raymond Chua", email = "ray.r.chua@gmail.com"}]
 
 dependencies = [
     "numpy",
-    "pyglet",
+    "pyglet==1.5.27",
     "gym",
 ]
 
