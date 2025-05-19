@@ -53,7 +53,7 @@ class Texture:
                 for i in range(1, 10):
 
                     path = get_file_path('textures', '%s_%d' % (tex_name, i), 'png')
-
+                    print("path", path)
                     if not os.path.exists(path):
                         break
                     paths.append(path)
