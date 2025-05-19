@@ -1,0 +1,16 @@
+Metadata-Version: 2.4
+Name: miniworld
+Version: 0.1.0
+Summary: Various environments created based on the MiniWorld Environment.
+Author-email: Raymond Chua <ray.r.chua@gmail.com>
+License: MIT
+Project-URL: homepage, https://github.com/raymondchua/miniworld_four_rooms
+Project-URL: repository, https://github.com/raymondchua/miniworld_four_rooms
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Requires-Dist: numpy
+Requires-Dist: pyglet
+Requires-Dist: gym
+
+# Four Rooms Environments based on Miniworld
+This Four Rooms environment is based on the MiniWorld environment, which can be found [at the Farama-Foundation Miniworld Repo.](https://github.com/Farama-Foundation/Miniworld)
