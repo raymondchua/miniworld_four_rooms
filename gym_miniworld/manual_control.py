@@ -14,7 +14,7 @@ from pyglet import clock
 import numpy as np
 import gym
 
-import gym_miniworld
+import gym_miniworld.envs
 
 parser = argparse.ArgumentParser()
 parser.add_argument("--env-name", default="MiniWorld-FourRoomsTask1-v0")
@@ -47,9 +47,7 @@ env.render("pyglet", view=view_mode)
 
 def step(action):
     obs, reward, done, info = env.step(action)
-
-    if reward > 0:
-        print("reward={:.2f}".format(reward))
+    print("reward={:.2f}".format(reward))
 
     if done:
         print("done!")
