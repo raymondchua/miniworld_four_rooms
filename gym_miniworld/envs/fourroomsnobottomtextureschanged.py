@@ -69,7 +69,7 @@ class FourRoomsNoBottomTextureChanged(MiniWorldEnv):
             max_x=7 * self._scale,
             min_z=-7 * self._scale,
             max_z=-1 * self._scale,
-            wall_tex="wood_planks",
+            wall_tex="water",
         )
         # Top-left room
         room3 = self.add_rect_room(
@@ -162,7 +162,7 @@ class FourRoomsNoBottomTextureChanged(MiniWorldEnv):
             max_x=7 * self._scale,
             min_z=-7 * self._scale,
             max_z=-1 * self._scale,
-            wall_tex="wood_planks",
+            wall_tex="water",
         )
         # Top-left room
         room3 = self.add_rect_room(
