@@ -24,6 +24,7 @@ from .tworooms import *
 from .threeroomstextured import *
 from .fourroomsnoleftconnect import *
 from .fourroomsnoleftstartroombottomleft import *
+from .fourroomsnobottomtextureschanged import *
 # from .threerooms import *
 # from .wallgap import *
 # from .sidewalk import *
