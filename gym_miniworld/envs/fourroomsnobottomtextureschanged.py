@@ -246,7 +246,7 @@ class FourRoomsNoBottomTextureChanged(MiniWorldEnv):
         pass
 
 
-class FourRoomsNoBottomActions(FourRoomsNoBottom):
+class FourRoomsNoBottomTextureChangedActions(FourRoomsNoBottomTextureChanged):
     """
     Classic four rooms environment.
     The agent must reach the red box to get a reward.
@@ -464,7 +464,7 @@ class FourRoomsNoBottomActions(FourRoomsNoBottom):
         )
 
 
-class FourRoomsNoBottomTwoTasks(FourRoomsNoBottomActions):
+class FourRoomsNoBottomTextureChangedTwoTasks(FourRoomsNoBottomTextureChangedActions):
     def __init__(self, task_id: int = 0, scale: float = 1.0):
         self._scale = scale
 
@@ -649,31 +649,31 @@ class FourRoomsNoBottomTwoTasks(FourRoomsNoBottomActions):
         )
 
 
-class FourRoomsNoBottomTextureChangedTask1(FourRoomsNoBottomTwoTasks):
+class FourRoomsNoBottomTextureChangedTask1(FourRoomsNoBottomTextureChangedTwoTasks):
     def __init__(self):
         super().__init__(task_id=0)
 
 
-class FourRoomsNoBottomTextureChangedTask2(FourRoomsNoBottomTwoTasks):
+class FourRoomsNoBottomTextureChangedTask2(FourRoomsNoBottomTextureChangedTwoTasks):
     def __init__(self):
         super().__init__(task_id=1)
 
 
-class FourRoomsNoBottomTextureChangedSize2Task1(FourRoomsNoBottomTwoTasks):
+class FourRoomsNoBottomTextureChangedSize2Task1(FourRoomsNoBottomTextureChangedTwoTasks):
     def __init__(self):
         super().__init__(task_id=0, scale=1.2)
 
 
-class FourRoomsNoBottomTextureChangedSize2Task2(FourRoomsNoBottomTwoTasks):
+class FourRoomsNoBottomTextureChangedSize2Task2(FourRoomsNoBottomTextureChangedTwoTasks):
     def __init__(self):
         super().__init__(task_id=1, scale=1.2)
 
 
-class FourRoomsNoBottomTextureChangedSize3Task1(FourRoomsNoBottomTwoTasks):
+class FourRoomsNoBottomTextureChangedSize3Task1(FourRoomsNoBottomTextureChangedTwoTasks):
     def __init__(self):
         super().__init__(task_id=0, scale=1.5)
 
 
-class FourRoomsNoBottomTextureChangedSize3Task2(FourRoomsNoBottomTwoTasks):
+class FourRoomsNoBottomTextureChangedSize3Task2(FourRoomsNoBottomTextureChangedTwoTasks):
     def __init__(self):
         super().__init__(task_id=1, scale=1.5)
