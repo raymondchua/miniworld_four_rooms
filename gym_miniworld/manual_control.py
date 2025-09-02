@@ -17,7 +17,7 @@ import gym
 import gym_miniworld.envs
 
 parser = argparse.ArgumentParser()
-parser.add_argument("--env-name", default="MiniWorld-FourRoomsTask1-v0")
+parser.add_argument("--env-name", default="MiniWorld-FourRoomsNoBottomTextureChangedTask1-v0")
 parser.add_argument(
     "--domain-rand", action="store_true", help="enable domain randomization"
 )
