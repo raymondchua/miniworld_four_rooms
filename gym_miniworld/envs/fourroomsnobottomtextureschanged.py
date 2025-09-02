@@ -53,7 +53,7 @@ class FourRoomsNoBottomTextureChanged(MiniWorldEnv):
             max_x=-1 * self._scale,
             min_z=1 * self._scale,
             max_z=7 * self._scale,
-            wall_tex="cardboard",
+            wall_tex="brick_wall",
         )
         # Bottom-right room
         room1 = self.add_rect_room(
@@ -61,7 +61,7 @@ class FourRoomsNoBottomTextureChanged(MiniWorldEnv):
             max_x=7 * self._scale,
             min_z=1 * self._scale,
             max_z=7 * self._scale,
-            wall_tex="marble",
+            wall_tex="rock",
         )
         # Top-right room
         room2 = self.add_rect_room(
@@ -69,7 +69,7 @@ class FourRoomsNoBottomTextureChanged(MiniWorldEnv):
             max_x=7 * self._scale,
             min_z=-7 * self._scale,
             max_z=-1 * self._scale,
-            wall_tex="metal_grill",
+            wall_tex="wood_planks",
         )
         # Top-left room
         room3 = self.add_rect_room(
@@ -77,7 +77,7 @@ class FourRoomsNoBottomTextureChanged(MiniWorldEnv):
             max_x=-1 * self._scale,
             min_z=-7 * self._scale,
             max_z=-1 * self._scale,
-            wall_tex="stucco",
+            wall_tex="slime",
         )
 
         # Add openings to connect the rooms together
